@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MinkUp - Create User</title>
+  </head>
+  <body>
+    <h1>Create a new user</h1>
+    <form action="/users" method="POST">
+      <label for="firstName">First name:</label>
+      <input type="text" id="firstName" name="firstName"><br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+      <label for="interests">Interests:</label>
+      <input type="text" id="interests" name="interests"><br><br>
+      <label for="bio">Bio:</label>
+      <textarea id="bio" name="bio"></textarea><br><br>
+      <label for="drink">Drink:</label>
+      <input type="text" id="drink" name="drink"><br><br>
+      <label for="picture">Picture:</label>
+      <input type="text" id="picture" name="picture"><br><br>
+      <input type="submit" value="Create">
+    </form>
+  </body>
+</html>
